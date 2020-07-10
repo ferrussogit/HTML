@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta name="keywords" content="Computacion">
+<html>
+    <Head>
+        
+        <title> Tuservicio.com/Registro</title>
+        <link rel = "icon" href =  "../IMG/servicio-tecnico.svg" type = "image/x-icon"> 
+    </Head>
+    <body>
+        
+        <h1> <img src="../IMG/st.svg" alt="reparacion" height="100"> TuServicio.com</h1>
+        <h2>Te reparamos el computador</h2>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="Servicios.html">Servicios</a></li>
+                <li><a href="Contactenos.html">Contactenos</a></li>
+                <li><a href="Inicio_de_sesion.html">Inicio de sesion</a></li>
+                <li>Registro</li>
+            </ul>
+        </nav>
+        <hr>
+        <main>
+            <form  name="registro">
+                <fieldset>
+                    <legend>Nuevo Usuario</legend>
+                    <label for="email" >E-mail:*</label><br>
+                    <input type="email" name="email" id="email" placeholder="Ingrese su E-mail" required><br><br>
+                    <label for="contraseña" >Contraseña:*</label><br>
+                    <input type="password" name="contraseña" id="contraseña" placeholder="Ingrese su contraseña" required><br><br>
+                    <label for="rcontraseña" >Repetir Contraseña:*</label><br>
+                    <input type="password" name="rcontraseña" id="rcontraseña" placeholder="vuelva a ingresar su contraseña" required><br>
+                    <p>Donde nos vio:</p>
+                    <input type="radio" id="google" value="g" name="google">
+                    <label for="google">Google</label>
+                    <input type="radio" id="otro" value="o" name="otro">
+                    <label for="otro">Otro</label><br><br>
+                    <p>Comentario:</p>
+                    <textarea name="comment" form="usrform" placeholder="Ingrese un cometario" required></textarea><br><br>
+                    <input type="checkbox" id="terminos" value="yes" required>
+                    <label for="terminos">Acepto los términos y condiciones*</label><br><br>
+                    <label for="continuar" ></label>
+                    <input type="submit" name="continuar" id="continuar" >
+                </fieldset>
+            </form>
+           
+        </main>
+        <hr>
+        <footer>
+            <p>Derechos reservados</p>
+        </footer>
+    </body>
+    
+</html>
